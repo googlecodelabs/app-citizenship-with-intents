@@ -177,8 +177,8 @@ public class ArtistActivity extends ActionBarActivity {
      * Listens for situations where the audio is about to become suddenly noisy, like headphones
      * being unplugged from the device.
      */
-    public class CallEventReceiver extends BroadcastReceiver {
-        public CallEventReceiver() {
+    public class AudioEventReceiver extends BroadcastReceiver {
+        public AudioEventReceiver() {
         }
 
         @Override
